@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "service_lists",
+  "info": {
+    "singularName": "service-list",
+    "pluralName": "service-lists",
+    "displayName": "ServiceList"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "json",
+      "required": true
+    }
+  }
+}

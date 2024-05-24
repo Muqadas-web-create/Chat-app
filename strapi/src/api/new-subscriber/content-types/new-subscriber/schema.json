@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "new_subscribers",
+  "info": {
+    "singularName": "new-subscriber",
+    "pluralName": "new-subscribers",
+    "displayName": "new-Subscriber"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "blog": {
+      "type": "string"
+    }
+  }
+}

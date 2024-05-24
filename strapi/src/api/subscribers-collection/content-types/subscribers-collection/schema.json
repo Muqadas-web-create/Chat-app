@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subscribers_collections",
+  "info": {
+    "singularName": "subscribers-collection",
+    "pluralName": "subscribers-collections",
+    "displayName": "Subscribers collection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}

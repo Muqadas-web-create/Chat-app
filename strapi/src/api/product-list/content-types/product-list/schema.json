@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "product_lists",
+  "info": {
+    "singularName": "product-list",
+    "pluralName": "product-lists",
+    "displayName": "ProductList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "items": {
+      "type": "json",
+      "required": true
+    },
+    "nextitems": {
+      "type": "json"
+    },
+    "more": {
+      "type": "json"
+    },
+    "add": {
+      "type": "json"
+    },
+    "products": {
+      "type": "json"
+    },
+    "star": {
+      "type": "json"
+    },
+    "fruits": {
+      "type": "json"
+    },
+    "grocery": {
+      "type": "json"
+    }
+  }
+}

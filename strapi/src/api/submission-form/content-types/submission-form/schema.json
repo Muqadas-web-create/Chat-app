@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "submission_forms",
+  "info": {
+    "singularName": "submission-form",
+    "pluralName": "submission-forms",
+    "displayName": "Submission form",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pic": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "course": {
+      "type": "string",
+      "required": true
+    },
+    "Github": {
+      "type": "email",
+      "required": true
+    },
+    "link": {
+      "type": "uid",
+      "required": false
+    },
+    "submitt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
